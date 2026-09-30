@@ -4,7 +4,7 @@ from telebot import types
 import google.generativeai as genai
 
 # 🔑 यहाँ सीधे अपनी चाबियाँ डालें
-TELEGRAM_TOKEN = '8632640696:AAHUgNS8qgWLZcrdYpB5ZTdEGlMAwVQfYj0'
+TELEGRAM_TOKEN = '8632640696:AAF0COWfPd0__5aN0y0Jf9jchDGqY6F2Rpk'
 GEMINI_API_KEY = 'AQ.Ab8RN6IPNlsf8vzUhpwbcB7IGsVPi5tZSLS66zftMyeKNRiPfw'
 
 genai.configure(api_key=GEMINI_API_KEY)
