@@ -1,12 +1,12 @@
+import os
 import telebot
 from telebot import types
 import google.generativeai as genai
 
-# 🔑 अपनी API Keys यहाँ डालें
-TELEGRAM_TOKEN = 'YOUR_TELEGRAM_BOT_TOKEN'
-GEMINI_API_KEY = 'YOUR_GEMINI_API_KEY'
+# 🔑 यहाँ सीधे अपनी चाबियाँ डालें
+TELEGRAM_TOKEN = '8632640696:AAG45I0blnmU0337dWMKbOazKHMV2uSmZNE'
+GEMINI_API_KEY = 'AQ.Ab8RN6IPNlsf8vzUhpwbcB7IGsVPi5tZSLS66zftMyeKNRiPfw'
 
-# कॉन्फ़िगरेशन
 genai.configure(api_key=GEMINI_API_KEY)
 bot = telebot.TeleBot(TELEGRAM_TOKEN)
 model = genai.GenerativeModel('gemini-pro')
